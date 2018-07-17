@@ -13,3 +13,11 @@ function johnLennonFacts(facts) {
   }
   return facts;
 }
+
+function iLoveTheBeatles(n) {
+  var array = []; // creates empty array stored in a variable
+  do {
+    array.push("I love the Beatles!"); // adds value to empty array as it cycles up to 15
+  } while (n++ && n < 15);
+  return array;
+}
