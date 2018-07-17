@@ -4,3 +4,12 @@ function theBeatlesPlay(musicians, instruments) {
     array.push(`${musicians[n]} plays ${instruments[n]}`); // adds values to empty array as it cycles each musician
   } return array; // returns the array of new strings
 }
+
+function johnLennonFacts(facts) {
+  var n = 0;
+  while (n < facts.length) {
+    facts[n] += "!!!";
+    n++;
+  }
+  return facts;
+}
